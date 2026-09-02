@@ -1,44 +1,37 @@
 # Lynx Engine
+**Lynx Engine** is a personal project created to learn, hands-on, how digital games actually work underneath the interface we see on screen.
 
-O **Lynx Engine** é um projeto pessoal criado para aprender, na prática, como os jogos digitais funcionam por baixo da interface que vemos na tela.
+I want to understand each part slowly, experiment, make mistakes, fix them, and turn theoretical concepts into something that can actually be run and seen.
 
-Quero entender cada parte com calma, experimentar, errar, corrigir e transformar conceitos teóricos em algo que realmente possa ser executado e visualizado.
+## Why this project exists
+I've always been curious about how a game works. How does a character move? How does an image appear on screen? How is time controlled?
 
-## Por que este projeto existe?
+Lynx Engine was born to chase those answers using C++ and OpenGL.
 
-Sempre tive curiosidade sobre como um jogo funciona. Como um personagem se move? Como uma imagem aparece na tela? Como o tempo é controlado?
+This project is also a way to study math in a more interesting and concrete way, a field I love a lot.
 
-O Lynx Engine nasceu para buscar essas respostas usando C++ e OpenGL.
+## What I like about this process
+I like learning by building. Because of that, Lynx Engine isn't meant to start as a finished product or a perfect solution. Every step should teach something new.
 
-Este projeto também é uma forma de estudar matemática de um jeito mais interessante e concreto — uma área que eu amo muito.
+I also like the visual side of games: seeing a window open, a color change, an object appear, or a small interaction work makes the learning more concrete.
 
-## O que eu gosto neste processo
+The intent is to keep the project curious, experimental, and open to change. I'm not trying to rush toward a final result; I want to enjoy the process and understand what I'm building.
 
-Gosto de aprender construindo. Por isso, o Lynx Engine não pretende começar como um produto pronto ou como uma solução perfeita. Cada etapa deve ensinar alguma coisa nova.
+## Current state
+The project is still in its early steps, but every small win matters to me. There's already a working window, with an OpenGL context created through SDL2, and the screen can switch between two colors as time passes.
 
-Também gosto da parte visual dos jogos: ver uma janela abrir, uma cor mudar, um objeto aparecer ou uma pequena interação funcionar torna o aprendizado mais concreto.
+There's also a main loop that receives system events, letting the application close through the window or the `Esc` key. These are small things, but they represent the beginning of the space where the future game will live.
 
-A intenção é manter o projeto curioso, experimental e aberto a mudanças. Não quero correr para chegar a um resultado final; quero aproveitar o caminho e entender o que estou construindo.
+## Where I want to take Lynx Engine
+I want to grow the project gradually, following what I'm learning and without rushing. Each new step will be a chance to better understand math, how games work, and the power of OpenGL.
 
-## Momento atual
+In the future, I want to try drawing shapes, creating movement, working with images, and building a small 2D experience. I don't yet know exactly where the project will end up, and that's also one of the parts that interests me most.
 
-O projeto ainda está nos primeiros passos, mas cada conquista tem um significado importante para mim. Já existe uma janela funcionando, com um contexto OpenGL criado pelo SDL2, e a tela consegue alternar entre duas cores conforme o tempo passa.
-
-Também já existe um loop principal que recebe eventos do sistema, permitindo fechar a aplicação pela janela ou pela tecla `Esc`. São pequenas coisas, mas representam o começo do espaço onde o futuro jogo poderá existir.
-
-## Para onde quero levar o Lynx Engine
-
-Quero evoluir o projeto aos poucos, acompanhando o que estou aprendendo e sem pressa. Cada nova etapa será uma oportunidade para compreender melhor a matemática, o funcionamento dos jogos e o poder do OpenGL.
-
-No futuro, quero experimentar desenhar formas, criar movimentos, trabalhar com imagens e construir uma pequena experiência 2D. Ainda não sei exatamente onde o projeto vai chegar — e essa também é uma das partes que mais me interessam.
-
-## Tecnologias
-
+## Technologies
 - C++20
 - SDL2
 - OpenGL
 - GLAD
 
 ---
-
-Este projeto está sendo construído com curiosidade e paciência, uma descoberta de cada vez.
+This project is being built with curiosity and patience, one discovery at a time.
