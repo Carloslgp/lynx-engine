@@ -1,7 +1,5 @@
 {
   "name": "lynx-engine",
   "version": "0.1.0",
-  "dependencies": ["sdl2", "glad", "opengl"]
+  "dependencies": ["sdl2", "glad", "opengl", "stb"]
 }
-
-
