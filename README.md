@@ -3,6 +3,8 @@
 
 I want to understand each part slowly, experiment, make mistakes, fix them, and turn theoretical concepts into something that can actually be run and seen.
 
+![Lynx Engine running: a pixel art frog on a green background](docs/screenshot.png)
+
 ## Why this project exists
 I've always been curious about how a game works. How does a character move? How does an image appear on screen? How is time controlled?
 
